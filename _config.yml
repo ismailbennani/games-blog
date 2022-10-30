@@ -1,0 +1,76 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+#
+# If you need help with YAML syntax, here are some quick references for you:
+# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
+# https://learnxinyminutes.com/docs/yaml/
+#
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+
+lang: 'fr-FR'
+
+title: Blog
+author: Ismail Bennani
+email: ismail.lahkim.bennani@gmail.com
+description: >-
+  Avancements de projets, réflexions du moment, avis sur différents outils, etc...
+  Bref tout un tas de choses me concernant. Si vous lisez ces lignes, vous êtes probablement perdus.
+baseurl: ""
+url: "https://ismailbennani.github.io"
+twitter_username: ismailbennani17
+github_username:  ismailbennani
+
+github_repo: "https://github.com/ismailbennani/games-blog"
+
+# Config
+show_excerpts: true
+
+# Jekyll Spaceship
+jekyll-spaceship:
+  processors:
+    - table-processor
+    # - mathjax-processor // removed because can't make macros work
+    - plantuml-processor
+    - mermaid-processor
+    - polyfill-processor
+    - media-processor
+    - emoji-processor
+    - element-processor
+
+# Build settings
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-spaceship
+  - premonition
+
+# Exclude from processing.
+# The following items will not be processed, by default.
+# Any item listed under the `exclude:` key here will be automatically added to
+# the internal "default list".
+#
+# Excluded items can be processed by explicitly listing the directories or
+# their entries' file path in the `include:` list.
+#
+# exclude:
+#   - .sass-cache/
+#   - .jekyll-cache/
+#   - gemfiles/
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules/
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/

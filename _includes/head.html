@@ -1,0 +1,65 @@
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    {%- seo -%}
+    <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
+    <link rel="stylesheet" href="{{ "/assets/css/styles.css" | relative_url }}">
+    {%- feed_meta -%}
+    {%- if jekyll.environment == 'production' and site.google_analytics -%}
+    {%- include google-analytics.html -%}
+    {%- endif -%}
+
+    <!-- Mat-icon -->
+    {%- include material-icons-head.html -%}
+
+    <!-- MathJax -->
+    <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        TeX: {
+            Macros: {
+                    topL: "top\\_l",
+                    topR: "top\\_r",
+                    botR: "bot\\_r",
+                    botL: "bot\\_l",
+                    empty: ["{\\bot}"],
+                    unit: ["()"],
+                    and: "\\wedge",
+                    or: "\\vee",
+                    compose: "\\circ",
+
+                    definitions: ["\\begin{align*}#1\\end{align*}", 1],
+                    define: ["#1 ::= &\\;\\;\\; #2", 2],
+                    definecase: ["\\\\| &\\;\\;\\; #1", 1],
+                    defineinlinecase: ["\\;\\;\\; | \\;\\;\\; #1", 1],
+
+                    mat: ["\\begin{matrix}  #1 & #2 \\\\ #4 & #3 \\end{matrix}", 4],
+
+                    program: ["\\begin{align*}#1\\end{align*}", 1],
+                    let: ["#1 &= #2; \\\\", 2],
+                    inputs: ["\\text{Inputs:}&\\; #1; \\\\", 1],
+                    outputs: ["\\text{Outputs:}&\\; #1; \\\\", 1],
+
+                    value: ["\\begin{bmatrix}  #1 & #2 \\\\ #4 & #3 \\end{bmatrix}", 4],
+                    app: ["#1 \\; #2", 2],
+                    fun: ["#1 \\rightarrow #2", 2],
+
+                    fulltypingstatement: ["#1 \\;\\;\\vdash\\;\\; #2", 2],
+                    typingstatement: ["\\fulltypingstatement{\\Gamma}{#1}", 1],
+                    infer: ["\\frac{#1}{#2}", 2],
+
+                    circleshape: ["\\bigcirc"],
+                    squareshape: ["\\square"],
+                    blackcolor: ["\\color{black}{black}"],
+                    redcolor: ["\\color{red}{red}"],
+                    bluecolor: ["\\color{blue}{blue}"],
+            }
+        },
+        tex2jax: {
+            inlineMath: [['$','$'], ['\\(','\\)']],
+            processEscapes: true,
+        }
+    });
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+</head>

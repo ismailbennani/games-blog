@@ -1,0 +1,20 @@
+img.centered {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+span.centered {
+    display: block;
+    text-align: center;
+}
+
+.anchor-icon.material-icons {
+    width: 16px;
+    height: 16px;
+
+    font-size: 16px;
+    line-height: 16px;
+
+    vertical-align: middle;
+}
