@@ -59,7 +59,7 @@ A faire:
         - dégâts de base (e.g. type neutre dans le système pokemon)
         - cible unique
         - portée moyenne
-    - *Générateur d'IEM (Impulsion ElectroMagnégique*:
+    - *Générateur d'IEM (Impulsion ElectroMagnétique)*:
         - 1pv par coup
         - dégâts de base
         - dégats en zone autour de la tour
