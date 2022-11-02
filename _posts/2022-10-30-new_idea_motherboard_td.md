@@ -64,11 +64,11 @@ A faire:
         - dégâts de base
         - dégats en zone autour de la tour
         - portée faible
-    - *CCE (Code Correcteur d'Erreur)*:
-        - 1pv par coup
-        - dégâts de base
-        - cible unique
-        - portée infinie
+    - *Bobine*:
+        - pas de dégâts
+        - cible la case de l'ennemi ciblé
+        - ralenti tous les ennemis sur la case cible pendant 0.5 secondes
+        - portée faible: 1 case autour
     - *Module RAM*:
         - aucun dégâts
         - boost toutes les tours dans une zone autour d'elle
@@ -87,15 +87,15 @@ A faire:
         - zone plus grande > 2 pv par coup
         - portée plus grande > capacité active: déclenchement n'importe ou sur la carte (même zone mais ciblage à la
           souris)
-    - *CCE*:
-        - 2 pv par coup > 4 pv par coup
-        - déclenchement plus fréquent > retire "cheval de troie" aux ennemis touchés
+    - *Bobine*:
+        - ralentissement plus long > 1 pv par coup sur la case ciblée
+        - déclenchement plus fréquent > ralentissement plus puissant
     - *Module RAM*:
         - zone d'effet plus grande > réduction des coûts d'achat/évolution des composants dans la zone
         - réduction du coût fixe en CPU de cette tour > réduction des coût CPU des composants dans la zone
 - **stratégies de ciblage**:
     - premier, dernier, proche, fort
-    - modificateur "cheval de troie": permet en + de prioriser les chevaux de troie
+    - modificateur "cheval de troie": permet en + de prioriser les chevaux de troie (plus tard)
 
 # Nom
 
