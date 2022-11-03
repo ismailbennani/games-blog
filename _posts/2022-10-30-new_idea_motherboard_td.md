@@ -89,7 +89,7 @@ A faire:
           souris)
     - *Bobine*:
         - ralentissement plus long > 1 pv par coup sur la case ciblée
-        - déclenchement plus fréquent > ralentissement plus puissant
+        - déclenchement plus fréquent > un ennemi touché restera ralenti de manière permanente 
     - *Module RAM*:
         - zone d'effet plus grande > réduction des coûts d'achat/évolution des composants dans la zone
         - réduction du coût fixe en CPU de cette tour > réduction des coût CPU des composants dans la zone
